@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example Component Test Snapshot 1`] = `
+<div class="hook-example">
+  <div>
+    Hook Example
+  </div>
+  <p class="count-number">
+    In test page, You clicked
+    <span>
+      0
+    </span>
+    times
+  </p>
+  <button>
+    Click me
+  </button>
+</div>
+`;
