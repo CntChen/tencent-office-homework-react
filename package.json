@@ -1,5 +1,5 @@
 {
-    "name": "template",
+    "name": "tencent-office-homework-react",
     "version": "1.0.0",
     "description": "腾讯文档前端脚手架模板",
     "main": "index.js",
@@ -18,12 +18,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "http://git.code.oa.com/alloyteam/template.git"
+        "url": "https://github.com/CntChen/tencent-office-homework-react.git"
     },
     "keywords": [
         "腾讯文档",
-        "脚手架",
-        "模板"
+        "高校课程",
+        "react"
     ],
     "author": "AlloyTeam",
     "license": "ISC",
@@ -40,6 +40,7 @@
         "@babel/preset-env": "^7.12.11",
         "@babel/preset-react": "^7.12.10",
         "@commitlint/cli": "^11.0.0",
+        "@commitlint/config-conventional": "^13.2.0",
         "@testing-library/jest-dom": "^5.11.8",
         "@testing-library/react": "^11.2.2",
         "@types/jest": "^26.0.19",
@@ -90,7 +91,7 @@
     },
     "husky": {
         "hooks": {
-            "commit-msg": "./scripts/command/format-commit-msg.sh $HUSKY_GIT_PARAMS && commitlint -E HUSKY_GIT_PARAMS",
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
             "pre-commit": "npm run ts-check && lint-staged"
         }
     },

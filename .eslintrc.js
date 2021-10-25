@@ -24,7 +24,7 @@ module.exports = {
     },
     plugins: ['@typescript-eslint', 'react-hooks'],
     rules: {
-        // 腾讯文档采用 4 空格的缩进
+        // 采用 4 空格的缩进
         indent: [1, 4],
         '@typescript-eslint/indent': [1, 4],
         // 和 prettier 中规则冲突了, 关闭掉

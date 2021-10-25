@@ -10,7 +10,7 @@ import { getBranchName, getCommitHash, getBuildMinutes } from './utils';
 /**
  * 项目名称
  */
-const projectName = 'template';
+const projectName = 'homework';
 
 /**
  * 项目根目录
@@ -30,7 +30,7 @@ const publicPath = path.join(projectDir, 'public');
 /**
  * 静态资源的 cdn 路径
  */
-const cdnPath = `https://docs.idqqimg.com/tim/docs/${projectName}/`;
+const cdnPath = `./`;
 
 /**
  * 生成页面的 html 资源位置
